@@ -1,0 +1,61 @@
+{
+  "bhk_probs": {
+    "1": 0.24363091415114538,
+    "2": 0.4840505245129523,
+    "3": 0.23271248126739455,
+    "4": 0.03960608006850781
+  },
+  "rent_median_by_bhk": {
+    "1": 9000.0,
+    "2": 15000.0,
+    "3": 32000.0,
+    "4": 110000.0
+  },
+  "sqft_median_by_bhk": {
+    "1": 460.0,
+    "2": 850.0,
+    "3": 1400.0,
+    "4": 2240.0
+  },
+  "rent_sigma": 0.714891634323622,
+  "cities": [
+    "Mumbai",
+    "Chennai",
+    "Bangalore",
+    "Hyderabad",
+    "Delhi",
+    "Kolkata"
+  ],
+  "violations_per_100_units_12m": {
+    "mean": 1.0,
+    "dispersion": 0.3
+  },
+  "request_resolution_median_days": 60.0,
+  "opex_ratio": 0.38,
+  "concern_mix": {
+    "maintenance": 0.23236069529469594,
+    "price": 0.18463738326109302,
+    "communication": 0.12511729746637476,
+    "relocation": 0.20765002904508684,
+    "none": 0.2502345949327495
+  },
+  "sources_used": [
+    "rent:House_Rent_Dataset.csv (n=4671)",
+    "violations:nyc_hpd_violations.csv (rows=10000)",
+    "complaints:nyc_hpd_complaints.csv (rows=10000)",
+    "hud:hud_multifamily_properties.csv (rows=17792)",
+    "concern_mix:ahs_reasons_for_moving.csv"
+  ],
+  "complaint_category_mix": {
+    "apartment": 0.7275,
+    "building-wide": 0.1748,
+    "public area": 0.0847,
+    "building": 0.0123,
+    "public parts": 0.0007
+  },
+  "unit_count_quantiles": {
+    "0.1": 0.0,
+    "0.5": 76.0,
+    "0.9": 224.0
+  }
+}

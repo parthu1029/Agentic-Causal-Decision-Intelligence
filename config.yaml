@@ -1,0 +1,11 @@
+# Override any field of pmsdi.config.Config here.  Example sensitivity run: effect_scale: 0.5
+seed: 42
+n_history: 12000
+n_current: 3000
+target_renewal_rate: 0.58
+effect_scale: 1.0
+rct_fraction: 0.15
+logging_strength: 1.0
+hidden_confounding: 0.0
+budget_pct_rent_roll: 0.06
+currency: "$"

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+data/pms.db
+data/raw/*
+!data/raw/README.md
+data/synthetic/*
+outputs/artifacts/
+.pytest_cache/
+.venv/
+.streamlit/

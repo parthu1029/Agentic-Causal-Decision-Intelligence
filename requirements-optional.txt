@@ -1,0 +1,4 @@
+econml>=0.15      # Microsoft EconML DRLearner (scripts/04 uses it automatically when installed)
+dowhy>=0.11       # scripts/08_dowhy_check.py
+psycopg2-binary   # only if you use PostgreSQL (DATABASE_URL=postgresql+psycopg2://...)
+anthropic         # only for the optional LLM wording of summaries (ANTHROPIC_API_KEY)

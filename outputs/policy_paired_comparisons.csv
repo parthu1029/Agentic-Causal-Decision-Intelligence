@@ -1,0 +1,5 @@
+comparison,mean_gain_per_tenant,ci_lo,ci_hi,significant
+B Causal + constraints  minus  B3 Risk + rules,347.86139314642344,289.60997815491476,404.44631894644726,True
+B Causal + constraints  minus  A Causal (no constraints),89.31269734044872,58.06596566907066,120.83795125730234,True
+B Causal + constraints  minus  B1 Rule-based,366.5849072428594,310.09015371869515,424.91201710031964,True
+A Causal (no constraints)  minus  B3 Risk + rules,258.54869580597466,200.36505277626046,311.8219760126237,True

@@ -1,0 +1,50 @@
+{
+  "Maintenance-driven tenant (service priority wins)": {
+    "tenant_id": 13665,
+    "model_recommends": "service_priority",
+    "truth_best": "service_priority",
+    "hidden_concern": "maintenance",
+    "true_gain": 452863.1056716826,
+    "risk": 0.5469053809297657
+  },
+  "Price-sensitive tenant (concession wins)": {
+    "tenant_id": 14049,
+    "model_recommends": "rent_concession",
+    "truth_best": "rent_concession",
+    "hidden_concern": "price",
+    "true_gain": 574248.8108831667,
+    "risk": 0.5044122409897304
+  },
+  "Communication-driven tenant (outreach wins)": {
+    "tenant_id": 12303,
+    "model_recommends": "proactive_outreach",
+    "truth_best": "proactive_outreach",
+    "hidden_concern": "communication",
+    "true_gain": 374711.6466329015,
+    "risk": 0.49713209578118966
+  },
+  "Relocating tenant (nothing helps - do nothing)": {
+    "tenant_id": 12091,
+    "model_recommends": "no_action",
+    "truth_best": "no_action",
+    "hidden_concern": "relocation",
+    "true_gain": 0.0,
+    "risk": 0.497277473928855
+  },
+  "Concession blocked by policy (arrears / late payments)": {
+    "tenant_id": 13491,
+    "model_recommends": "proactive_outreach",
+    "truth_best": "proactive_outreach",
+    "hidden_concern": "price",
+    "true_gain": 8935.663402398437,
+    "risk": 0.5858956559938625
+  },
+  "Honest miss: model and truth disagree": {
+    "tenant_id": 14166,
+    "model_recommends": "service_priority",
+    "truth_best": "rent_concession",
+    "hidden_concern": "price",
+    "true_gain": 332881.49147337297,
+    "risk": 0.661363033242329
+  }
+}

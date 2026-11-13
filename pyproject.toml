@@ -1,0 +1,16 @@
+[project]
+name = "pmsdi"
+version = "1.0.0"
+description = "Agentic property-management decision intelligence for tenant retention"
+requires-python = ">=3.10"
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
